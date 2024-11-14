@@ -15,3 +15,5 @@ class Developer extends Player {
 
     }
 }
+
+export default Developer;
