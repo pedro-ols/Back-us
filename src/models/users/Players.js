@@ -1,12 +1,12 @@
 class Player {
-    constructor(name, password, currentLocal, deadOrAlive, group, nickname, role){
+    constructor(name, password, currentLocal, alive, group, nickname, role){
         this.id = this.generateID();
         this.group = group;
         this.nickname = nickname;
         this.name = name;
         this.password = password;
-        this.currentLocal = "Recepção";
-        this.deadOrAlive = deadOrAlive;
+        this.currentLocal = currentLocal;
+        this.alive = alive;
         this.role = role;
     }
     generateID(){
