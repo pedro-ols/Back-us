@@ -1,19 +1,20 @@
 import Player from "./Players.js";
 
 class Developer extends Player {
-    constructor(name, password, currentLocal, deadOrAlive){
-        super(name, password, currentLocal, deadOrAlive)
+    constructor(name, password, currentLocal, deadOrAlive, group, nickname, role){
+        super(name, password, currentLocal, deadOrAlive, group, nickname, role)
+        this.id = this.generateID();
     }
-
-    startGame(){
-        
+    generateID(){
+        return Math.floor(Math.random() * 999) + 1;
     }
-    scoring(){
-
-    }
-    code(){
+    eliminate(){
 
     }
+    showRole(role){
+        return `O jogador é um ${role}.`
+    }
+
 }
-
 export default Developer;
+
