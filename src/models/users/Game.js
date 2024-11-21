@@ -1,4 +1,6 @@
+//Cria a classe do jogo
 class Game {
+    // Atributos
     constructor(name, activePlayers = [], inactivePlayers = []) {
         this.name = name;
         this.activePlayers = activePlayers; 
@@ -6,12 +8,15 @@ class Game {
         this.isActive = false; 
     }
 
+    //Método para iniciar o jogo
     startGame() {
-        if (this.activePlayers.length < 2) {
-            console.log("É necessário pelo menos 2 jogadores para iniciar o jogo.");
-            return;
+
+        // Validação de mínimo de players
+        if (this.activePlayers.length < 3) {
+            console.log("É necessário pelo menos 3 jogadores para iniciar o jogo.");
         }
-        
+
+        // Método para começar o jogo        
         this.isActive = true;
         console.log(`O jogo "${this.name}" começou com os seguintes jogadores:`);
         this.activePlayers.forEach(player => {
@@ -19,13 +24,15 @@ class Game {
         });
     }
 
+    //Método para a pontuação do jogo
     scoring() {
+        
+        //validação
         if (!this.isActive) {
             console.log("O jogo não está ativo. Não é possível calcular a pontuação.");
             return;
         }
 
-        
         const scores = this.activePlayers.map(player => {
             
             return {
@@ -42,6 +49,7 @@ class Game {
         });
     }
 
+    // Para terminar o jogo
     endGame() {
         this.isActive = false;
         console.log(`O jogo "${this.name}" terminou.`);
