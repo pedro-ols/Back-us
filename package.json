@@ -1,0 +1,12 @@
+{
+  "name": "etapa-3",
+  "version": "1.0.0",
+  "description": "Projeto proposto em sala de aula pelos instrutores Felipe Santos e Marcelo Carboni para integrar o aprendizado do segundo semestre do curso de desenvolvimento de sistemas do SENAI Valinhos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Grupo 6 - 2TDS2",
+  "license": "MIT"
+}
