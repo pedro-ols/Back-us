@@ -68,13 +68,13 @@ Este projeto é baseado na proposta de "gamificação" do conteúdo da matéria 
 
 ### **Integrantes e Contribuições**
 
-- **Integrante 1 (Giovanni):** _Descrição do que foi feito._  
-- **Integrante 2 (Joao Gianoni):** _Descrição do que foi feito._  
-- **Integrante 3 (Vitor):** _Descrição do que foi feito._  
-- **Integrante 4 (Pedro Oliveira):** _Descrição do que foi feito._  
-- **Integrante 5 (Vinicius Valverde):** _Descrição do que foi feito._  
-- **Integrante 6 (Julia Martins):** _Descrição do que foi feito._  
-- **Integrante 7 (G):** _Descrição do que foi feito._  
+- **Integrante 1 (Giovanni):**  linkagem do cadastro routes com a index e criação e produçao do diagrama
+- **Integrante 2 (Joao Gianoni):** Criação e produção do diagrama, e comentando os códigos.
+- **Integrante 3 (Vitor):** linkagem do cadastro routes com a index, criação do CRUD
+- **Integrante 4 (Pedro Oliveira):** Criação das classes de Dev e Sabotador, criação das rotas de buscar e adicionar   
+- **Integrante 5 (Vinicius Valverde):** Criação de todas as rotas crud
+- **Integrante 6 (Julia Martins):** Criação e produção do diagrama, e comentando os códigos.
+- **Integrante 7 (Gabriela Fernanda):** Criação e produção do diagrama, e comentando os códigos.  
 
 ---
 
