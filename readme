@@ -1,7 +1,49 @@
 vamo la
 
-vitor e giovanni- linkagem do cadastro para index ( COMPLETADO )
+vitor e giovanni- linkagem do cadastro para index ( COMPLETO )
 
-pedro e valverde - fazer crud
+pedro e valverde - fazer crud ( INCOMPLETO )
 
-gabi e julia e danone - diagrama e comentario
+gabi e julia e danone - diagrama e comentario ( INCOMPLETO )
+
+
+- Número da Etapa: [Insira o número da etapa aqui]  
+- Número do Grupo: Grupo: 6
+
+---
+
+
+### Arquivo Principal:  
+- Nome do Arquivo: [Insira o nome do arquivo, exemplo: Classe, Servidor ou Rota]  
+
+### Arquivos de Anexos:  
+- Diagrama UML: Disponível na pasta anexos como [nome_do_arquivo].pdf ou [nome_do_arquivo].png.  
+- Testes de Validação: Prints dos testes estão anexados em [nome_do_arquivo]_testes.png.  
+
+---
+ 
+
+| Nome             | Responsabilidade                    |  
+|-----------------------|-----------------------------------------|  
+| Giovanni Gonçalves | [Descreva o que ele(a) fez, ex: Classe] |  
+| João Vitor Gianoni | [Exemplo: Implementação do Servidor]    |  
+| Vitor Sampaio | [Exemplo: Desenvolvimento das Rotas]    |  
+| Vinicius Valverde | [Exemplo: Desenvolvimento das Rotas]    |  
+| Pedro Oliveira | [Exemplo: Desenvolvimento das Rotas]    |  
+| Julia Martins | [Exemplo: Desenvolvimento das Rotas]    |  
+| Gabriela Fernanda | [Exemplo: Desenvolvimento das Rotas]    |  
+
+---
+
+1. Diagrama UML:  
+   Localizado em /anexos. Visualize em formato PDF ou PNG.  
+
+2. Testes de Validação (CRUD):  
+   - Cadastro: [Descrição do teste]  
+   - Atualização: [Descrição do teste]  
+   - Deleção: [Descrição do teste]  
+   Os prints estão na pasta /anexos.  
+
+--- 
+
+Repositório do grupo: https://github.com/pedro-ols/Back-us.git
